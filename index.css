@@ -1,0 +1,122 @@
+.left {
+  background-color: black;
+  width: 40%;
+  height: 660px;
+  margin-top: -30px;
+}
+.left p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  padding-top: 300px;
+}
+.right {
+  background-color: rgba(245, 245, 245, 1);
+  width: 60%;
+  height: 620px;
+  margin-top: -5px;
+}
+.main {
+  display: flex;
+}
+.sign {
+  width: 400px;
+  margin: 100px 200px;
+  height: 500px;
+}
+.options h1 {
+  color: #000;
+  font-family: "Montserrat";
+}
+.options p {
+  margin-top: -22px;
+  font-family: "Lato";
+}
+.googleapple {
+  display: flex;
+}
+.googleapple .google {
+  margin-right: 30px;
+  padding-bottom: 16px;
+  padding-top: -20px;
+}
+.googleapple button {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 1);
+  border: none;
+  height: 36px;
+  border-radius: 12px;
+  width: 190px;
+  color: rgba(133, 133, 133, 1);
+  padding-bottom: 16px;
+  padding-top: -9px;
+}
+
+.googleapple .google img {
+  width: 17px;
+  height: 17px;
+  margin-top: 7px;
+}
+.googleapple .apple img {
+  width: 20px;
+  height: 18px;
+  margin-left: 10px;
+  margin-top: 6px;
+}
+.input {
+  background-color: rgba(255, 255, 255, 1);
+  width: 400px;
+  height: 290px;
+  border-radius: 10px;
+}
+.input p {
+  color: #000;
+  margin-left: 20px;
+  font-family: Lato;
+  font-size: 16px;
+}
+.input .email {
+  margin-top: 10px;
+
+  padding-top: 20px;
+}
+.input input {
+  background-color: rgba(245, 245, 245, 1);
+  margin-left: 20px;
+  border: none;
+  height: 29px;
+  width: 356px;
+  border-radius: 7px;
+  margin-top: -10px;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: #000;
+}
+.input .forgot {
+  margin-left: 20px;
+  color: rgba(52, 107, 212, 1);
+  margin-top: -20px;
+}
+.input button {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 356px;
+  height: 37px;
+  background-color: rgba(0, 0, 0, 1);
+  color: #fff;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.register p {
+  text-align: center;
+  color: #858585;
+}
+.register p span a {
+  color: rgba(52, 107, 212, 1);
+}
